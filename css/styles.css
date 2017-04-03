@@ -1,0 +1,138 @@
+@media(min-width: 550px){
+	.poster-container{
+    	text-align: center;
+	}
+}
+
+.listItem{
+}
+/*MOVIL*/
+@media(max-width: 550px){
+	.poster-container {
+    	width: 70%;
+    	margin: auto;
+	}
+	.poster-container img{
+		width: 100%;
+		max-width: 100%;
+	}
+	.detail-container{
+		clear: both;
+	}
+	.detail-container h1{
+		text-align: center;
+		text-transform: uppercase;
+		font-family: initial;
+		letter-spacing: 2px;
+		color: #555;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.detail-container p{
+		display: none;
+	}
+	.contenido_p{
+		display: none;
+	}
+}
+/*IPAD*/
+@media(max-width: 1000px) and (min-width: 550px){
+	.poster-container img{
+		width: 80%;
+	    float: none;
+	    max-width: 100%;
+	    margin-left: 10%;
+	}
+	.poster-container {
+    	float: left;
+    	width: 50%;
+	}
+	.detail-container h1{
+		text-align: center;
+		text-transform: uppercase;
+		font-family: initial;
+		letter-spacing: 2px;
+		color: #555;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.detail-container{
+		width: 50%;
+    	float: right;
+	}
+	.detail-container p{
+		padding: 10px;
+	    text-align: justify;
+	    display: block;
+	    font-size: 14px;
+	    display: block;
+	}
+	.listItem{
+		min-height: 220px;
+    	margin-bottom: 3%;
+    	clear: both;
+	}
+	.contenido_p{
+		display: none;
+	}
+}
+/*PC*/
+@media(min-width: 1000px){
+	.listItem{
+		width: 23%;
+    display: inline-block;
+    margin: 1%;
+    float: left;
+    min-height: 390px;
+    max-height: 0px;
+    padding-bottom: 20px;
+	}
+	.poster-container img{
+		width: 80%;
+	    max-width: 100%;
+	    margin: auto;
+	    float: none;
+	}
+	.detail-container h1{
+		text-align: center;
+	    text-transform: capitalize;
+	    font-family: fantasy;
+	    letter-spacing: 1px;
+	    color: #555;
+	    font-size: 14px;
+	    font-weight: normal;
+	    clear: both;
+	}
+	.detail-container p{
+		padding: 10px;
+	    text-align: justify;
+	    display: block;
+	    font-size: 14px;
+	    display: none;
+	}
+	#listaPeliculas{
+		width: 90%;
+	    min-height: 500px;
+	    margin: auto;
+	}
+	.contenido_p{
+		background-color: #ccc;
+	    padding: 10px;
+	    width: 80%;
+	    margin: auto;
+	    cursor: pointer;
+	}
+	.pop-up{
+		position: fixed;
+	    background: whitesmoke;
+	    border-radius: 5px;
+	    border: 2px solid gray;
+	    width: 40%;
+	    float: none;
+	    height: 300px;
+	    margin: auto;
+	    top: 25%;
+	    left: 30%;
+	    display: none;
+	}
+}

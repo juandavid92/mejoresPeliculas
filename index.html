@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<!-- Include meta tag to ensure proper rendering and touch zooming --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="recursos/jquerymobile/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Include the jQuery library -->
+    <script src="recursos/jquery/jquery-2.1.0.js"></script>
+    
+    <!-- Include the jQuery Mobile library -->
+    <script src="recursos/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+    
+    <!-- Include mis funciones -->
+    <script src="js/main.js"></script>
+
+</head>
+<body onload="query();">
+    <div data-role="page">
+
+  <div data-role="header">
+    <h1>Peliculas</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+      <div id="listaPeliculas"> 
+                        
+      </div>   
+      <div class="pop-up" id="popuppeli">
+        
+      </div>
+
+    <ul>
+        <li id="mili"></li>
+        
+    </ul>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>Footer Text</h1>
+  </div>
+
+</div>
+</body>
+</html>
