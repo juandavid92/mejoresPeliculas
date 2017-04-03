@@ -20,7 +20,7 @@ function query(){
  
  $.ajax({  
        type: "GET",  
-       url: "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=58786ad096ac8bfe31522e77ee3e92f8",  
+       url: "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=*****",  
        dataType: "json",  
        success: function(resp){  
         creaListado(resp);
